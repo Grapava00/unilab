@@ -118,5 +118,20 @@ button{
     font-family: 'Helvetica-Bold'; 
 } 
 .news{
+    background: lightblue;
+}
+
+/* more news */
+
+.more-news-container{
+    max-width: 327px;
+    width: 100%;
+    margin: 40px auto;
+}
+.more-news--heading{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
     background: red;
 }
