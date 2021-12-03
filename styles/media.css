@@ -3,4 +3,10 @@
         max-width: calc(100% - 160px);
         width: 100%;
     }
+    .img--text-overlay h1,h2{
+        font-size: 24px;
+    }
+    .img--text-overlay p{
+        font-size: 16px;
+    }
 }
