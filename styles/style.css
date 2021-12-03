@@ -117,3 +117,6 @@ button{
     cursor: pointer;
     font-family: 'Helvetica-Bold'; 
 } 
+.news{
+    background: red;
+}
