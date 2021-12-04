@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 @media(min-width: 375px){
     .hide{
         display: none;
@@ -32,8 +39,12 @@
         width: 100%;
     }
     .articles-container{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
     .more-news--travell, .more-news--technology{
         max-width: 284px;
@@ -44,8 +55,12 @@
         width: 100%;
     }
     .articles{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
     .article{
         max-width: 284px;
@@ -63,13 +78,19 @@
         margin-bottom: 227px;
     }
     .last-articles-container{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
     .last-articles-container img{
         max-width: 284px;
     }
     .hide-arrow{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
     .hide-header{
@@ -78,14 +99,20 @@
     .container{
         max-width: 608px;
         width: 100%;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         margin: 0 auto;
     }
     .container-header{
         max-width: 608px;
         width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
     .hide-back-arrow{
         display: none;
@@ -117,16 +144,25 @@
         width: 100%;
     }
     .paragraphs{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
     .paragraphs p{
         max-width: 284px;
         width: 100%;
     }
     .paragraph-time{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .personal-img-space p{
         max-width: 279px;
@@ -156,11 +192,17 @@
 
 @media(min-width: 1367px){
     .news{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
     .articles-container{
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     } 
      .more-news-container{
         max-width: 383px;
@@ -186,13 +228,24 @@
         width: 100%;
     }
     .last-articles-container{
-        flex-direction: column;
-        justify-content: space-evenly;
-        justify-content: flex-start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
     }
     .common-container-articles{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
     .overlay-text-articles{
         max-width: 760px;
@@ -203,23 +256,33 @@
         width: 100%;
     }
     footer{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
     .links-list-container{
         max-width: 378px;
         width: 100%;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
     .icons-email{
-        align-items: flex-start;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
     }
     .container{
         max-width: 1160px;
         width: 100%;
     }
     .container-img-form{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
     .forms-container{
         margin: auto;
@@ -231,8 +294,12 @@
     .personal-img-container{
         max-width: 1200px;
         width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
     .paragraph-time {
         padding-left: 20px;
