@@ -287,3 +287,76 @@ button{
 .article-text .underline{
     border-bottom: 1px solid #A6ADB4;
 }
+
+/* footer */
+footer{
+    background: #A6ADB4;
+}
+.links-list-container{
+    max-width: 570px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top:58px;
+}
+.footer-list-container{
+    max-width: 243px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo-style{
+    color: #FFFFFF;
+    font-size: 13px;
+    font-family: 'Acumin Pro';
+    text-transform: uppercase;
+}
+.footer-list-style{
+    color: #CBD0D3;
+    font-size:13px;
+    font-family: 'Helvetica-Bold';
+}
+.icons-email{
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    min-height: 56px;
+    max-width: 608px;
+    width: 100%;
+    padding-bottom: 60px;
+}
+.footer-icons-list{
+    max-width: 136px;
+    width: 100%;
+    align-items: flex-end;
+}
+.footer-lists-ul{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-email{
+    max-width: 284px;
+    width: 100%;
+    min-height:40px ;
+    position: relative;
+}
+input[type="email"]{
+    width: 100%;
+    min-height: 40px;
+    border: 2px solid #FFFFFF;
+    opacity: 10%;
+    background: none;
+}
+.email-send-icon{
+    position: absolute;
+    right: 5%;
+    top: 20%;
+}
+.email-under-txt{
+    margin-top: 16px;
+    color: #CBD0D3;
+    font-size: 11px;
+    font-family: 'Helvetica-Regular';
+}
