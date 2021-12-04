@@ -108,4 +108,15 @@
         max-width: 360px;
         width: 100%;
     }
+    footer{
+        display: flex;
+    }
+    .links-list-container{
+        max-width: 378px;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .icons-email{
+        align-items: flex-start;
+    }
 }
