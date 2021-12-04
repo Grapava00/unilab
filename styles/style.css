@@ -1,5 +1,13 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 *{
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 /*header*/
@@ -8,15 +16,23 @@
 }
 .header-container{
     max-width: calc(100vw - 40px);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     vertical-align: center;
     margin: 0 auto;
     padding: 20px 0 20px 0;
 }
 .header--logo-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .header--logo{
     text-transform: uppercase;
@@ -31,18 +47,29 @@
 .header--nav-container{
     max-width: 317px;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .navbar{
     max-width: 247px;
     width: 100%;
 }
 .navbar-ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .navbar-link{
     text-transform: uppercase;
@@ -76,7 +103,9 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     width: 90%;
 }
 .img--text-overlay h1{
@@ -126,8 +155,12 @@ button{
 }
 .more-news--heading{
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-bottom: 39px;
     border-bottom: 2px solid #EBEDED;
     padding-bottom: 41px;
@@ -179,8 +212,12 @@ button{
 }
 .trending-heading{
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+     -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-bottom: 40px;
 }
 .trending-heading h2{
@@ -227,8 +264,12 @@ button{
 }
 .happening-heading{
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-bottom: 40px;
 }
 .happening-heading h2{
@@ -271,7 +312,9 @@ button{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     width: 90%;
 }
 .article-text h3{
@@ -298,16 +341,24 @@ footer{
 .links-list-container{
     max-width: 570px;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin: 0 auto;
     padding-top:58px;
 }
 .footer-list-container{
     max-width: 243px;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .footer-logo-style{
     color: #FFFFFF;
@@ -322,9 +373,15 @@ footer{
 }
 .icons-email{
     margin: 50px auto 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    -webkit-box-pack: justify;
+     -ms-flex-pack: justify;
+     justify-content: space-between;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+     align-items: flex-end;
     min-height: 56px;
     max-width: 608px;
     width: 100%;
@@ -333,11 +390,17 @@ footer{
 .footer-icons-list{
     max-width: 136px;
     width: 100%;
-    align-items: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
 }
 .footer-lists-ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .footer-email{
     max-width: 284px;
@@ -378,8 +441,12 @@ input[type="email"]:hover{
     max-width: 350px;
     width: 100%;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+     justify-content: space-between;
 }
 .main-image-container{
     max-width: 375px;
@@ -394,7 +461,9 @@ input[type="email"]:hover{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
     width: 90%;
     text-align: center;
 }
@@ -542,14 +611,22 @@ input[type="email"]:hover{
     margin-bottom:50px ;
 }
 .hide-number{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .number-links{
     max-width: 300px ;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .number-links a{
     color:#A6ADB4 ;
