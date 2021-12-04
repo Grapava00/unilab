@@ -471,7 +471,10 @@ input[type="email"]:hover{
 .personal-img-container{
     max-width: 320px;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto 40px;
+    padding: 40px 0 ;
+    border-top: 2px solid #EBEDED;
+    border-bottom: 2px solid #EBEDED;
 }
 .personal-img-space{
     margin-bottom: 24px;
