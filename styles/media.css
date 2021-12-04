@@ -107,6 +107,30 @@
     .hide-arrow a:hover{
         color:#202124 ;
     }
+    .form-section{
+        max-width: 446px;
+        width: 100%;
+    }
+    .personal-img-container{
+        max-width: 608px;
+        width: 100%;
+    }
+    .paragraphs{
+        display: flex;
+        justify-content: space-between;
+    }
+    .paragraphs p{
+        max-width: 284px;
+        width: 100%;
+    }
+    .paragraph-time{
+        display: flex;
+        flex-direction: column;
+    }
+    .personal-img-space p{
+        max-width: 279px;
+        width: 100%;
+    }
 }
 
 
@@ -183,5 +207,14 @@
     .container-header{
         max-width: 1160px;
         width: 100%;
+    }
+    .personal-img-container{
+        max-width: 1200px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .paragraph-time {
+        padding-left: 20px;
     }
 }
