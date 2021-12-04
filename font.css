@@ -10,3 +10,9 @@
     src: url('../fonts/helvetica/Helvetica-Regular.woff');
     src: url('../fonts/helvetica/Helvetica-Regular.woff2');
 }
+font face{
+    font-family: 'Acumin Pro';
+    src: url('../fonts/acumin/Acumin Pro.ttf');
+    src: url('../fonts/acumin/Acumin Pro.woff');
+    src: url('../fonts/acumin/Acumin Pro.woff2');
+}

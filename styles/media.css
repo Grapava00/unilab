@@ -1,3 +1,8 @@
+@media(min-width: 375px){
+    .hide{
+        display: none;
+    }
+}
 @media(min-width: 768px){
     .img--text-overlay{
         max-width: calc(100% - 160px);
@@ -13,5 +18,52 @@
     h1::after{
         margin: 40px 0 40px 0;
     }
-
+    .more-news-container{
+        max-width: 608px;
+        width: 100%;
+    }
+    .articles-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .more-news--travell, .more-news--technology{
+        max-width: 284px;
+        width: 100%;
+    }
+    .trending-container{
+        max-width: 608px;
+        width: 100%;
+    }
+    .articles{
+        display: flex;
+        justify-content: space-between;
+    }
+    .article{
+        max-width: 284px;
+        width: 100%;
+    }
+}
+@media(min-width: 1367px){
+    .news{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .articles-container{
+        flex-direction: column;
+    } 
+     .more-news-container{
+        max-width: 383px;
+        margin: auto;
+    } 
+    .hide{
+        display: block;
+    }
+    .trending-container{
+        max-width: 1200px;
+        width: 100%;
+    }
+    .article{
+        max-width: 360px;
+        width: 100%;
+    }
 }

@@ -117,12 +117,8 @@ button{
     cursor: pointer;
     font-family: 'Helvetica-Bold'; 
 } 
-.news{
-    background: lightblue;
-}
 
 /* more news */
-
 .more-news-container{
     max-width: 327px;
     width: 100%;
@@ -132,6 +128,90 @@ button{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 80px;
-    background: red;
+    margin-bottom: 39px;
+    border-bottom: 2px solid #EBEDED;
+    padding-bottom: 41px;
+}
+.more-news--heading h2{
+    color:#202124 ;
+    font-size:24px ;
+    font-family: 'Helvetica-Bold';
+    text-transform: uppercase;
+}
+.arrow-left{
+    margin-right: 32px;
+}
+.more-news-container h3{
+    color: #FA6980;
+    font-size: 16px;
+    font-family: 'Helvetica-Bold';
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.more-news-container h4{
+    color: #202124;
+    font-size: 16px;
+    font-family: 'Helvetica-Bold';
+    margin-bottom:10px ;
+}
+.more-news-container p {
+    color:#A6ADB4 ;
+    font-size:16px ;
+    font-family: 'Acumin Pro';
+    margin-bottom:12px ;
+}
+.more-news-container .time-txt{
+    color: #A6ADB4;
+    margin-left: 10px;
+    font-style: italic;
+    font-size: 13px;
+}
+  .more-news--travell{ 
+    margin-bottom: 41px;
+}
+
+/* trending */
+.trending-container{
+    max-width: 327px;
+    width: 100%;
+    margin: 80px auto;
+}
+.trending-heading{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.trending-heading h2{
+    color:#202124 ;
+    font-size:24px ;
+    font-family: 'Helvetica-Bold';
+    text-transform: uppercase;
+}
+.article-img{
+    margin-bottom:32px ;
+}
+.article-img img{
+    width: 100%;
+}
+.article-txt h4{
+    color: #202124;
+    font-size: 16px;
+    font-family: 'Helvetica-Bold';
+    margin-bottom:10px ;
+}
+.article-txt p {
+    color:#A6ADB4 ;
+    font-size:13px ;
+    font-family: 'Acumin Pro';
+    margin-bottom:12px ;
+}
+.article .time-txt{
+    color: #A6ADB4;
+    margin-left: 10px;
+    font-style: italic;
+    font-size: 13px;
+}
+.article{
+    margin-bottom: 73px;
 }
