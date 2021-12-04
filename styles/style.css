@@ -352,6 +352,10 @@ input[type="email"]{
     opacity: 10%;
     background: none;
 }
+input[type="email"]:hover{
+    opacity: 80%;
+    font-size: 20px;
+}
 .email-send-icon{
     position: absolute;
     right: 5%;
