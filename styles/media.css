@@ -2,14 +2,15 @@
     .hide{
         display: none;
     }
-    .hide-arrow{
-        display: none;
-    }
     .hide-header{
         display: none;
     }
 }
-
+@media(max-width: 375px){
+    .hide-arrow{
+        display: none;
+    }
+}
 
 @media(min-width: 768px){
     .img--text-overlay{
