@@ -131,6 +131,25 @@
         max-width: 279px;
         width: 100%;
     }
+    .last-section-container{
+        max-width: 608px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .last-img-container{
+        max-width: 608px;
+        width: 100%;
+    }
+    .last-img-container img{
+        width: 100%;
+    }
+    .last-paragraph-container{
+        max-width: 608px;
+        width: 100%;
+    }
+    .last-paragraph-container p{
+        width: 100%;
+    }
 }
 
 
@@ -216,5 +235,24 @@
     }
     .paragraph-time {
         padding-left: 20px;
+    }
+    .last-section-container{
+        max-width: 1200px;
+        width: 100%;
+    }
+    .last-img-container{
+        max-width: 1160px;
+        width: 100%;
+    }
+    .last-img-container img{
+        width: 100%;
+    }
+    .last-paragraph-container{
+        max-width: 760px;
+        width: 100%;
+        margin: 0 0 0 20px;
+    }
+    .last-paragraph-container p{
+        width: 100%;
     }
 }

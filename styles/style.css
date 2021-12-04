@@ -471,7 +471,7 @@ input[type="email"]:hover{
 .personal-img-container{
     max-width: 320px;
     width: 100%;
-    margin: 0 auto 40px;
+    margin: 0 auto 0;
     padding: 40px 0 ;
     border-top: 2px solid #EBEDED;
     border-bottom: 2px solid #EBEDED;
@@ -487,11 +487,13 @@ input[type="email"]:hover{
 }
 .paragraphs .parapgraph-one{
     margin-bottom:50px;
+    line-height: 1.5;
 }
 .paragraphs p{
     color: #A6ADB4;
     font-size: 14px;
     font-family: 'HelveticaRegular';
+    line-height: 1.5;
 }
 .paragraphs .time{
     margin-top: 26px;
@@ -500,4 +502,60 @@ input[type="email"]:hover{
     color:#A6ADB4 ;
     font-size:13px ;
     font-family: 'HelveticaOblique';
+}
+
+/* last section elephant */
+.last-section{
+    background: #F6F8F9;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.last-paragraph-container{
+    border-bottom: 2px solid #F6F8F9;
+}
+.last-img-container{
+    max-width: 327px;
+    width: 100%;
+    margin: 0 auto;
+}
+.last-paragraph-one{
+    margin-bottom: 40px;
+    margin-top: 24px;
+}
+.last-paragraph-container {
+    max-width: 327px;
+    width: 100%;
+    margin: 0 auto;
+}
+.last-paragraph-one, .last-paragraph-second{
+    color:#A6ADB4;
+    font-size: 14px;
+    font-family: 'Helvetica-Regular';
+    line-height: 1.5;
+}
+.hide-paragraph{
+    color: #202124;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'HelveticaOblique';
+    margin-top: 24px;
+    margin-bottom:50px ;
+}
+.hide-number{
+    display: flex;
+    justify-content: center;
+}
+.number-links{
+    max-width: 300px ;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.number-links a{
+    color:#A6ADB4 ;
+    font-size: 11px;
+    font-family: 'Helvetica-Regular';
+}
+.number-links a:hover{
+    color: #202124;
 }
